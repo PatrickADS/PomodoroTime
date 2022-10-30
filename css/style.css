@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    color: #fff;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Calibri";
+    font-size: 80px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 414px) {
+    .main{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+}
